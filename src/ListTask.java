@@ -35,7 +35,6 @@ public class ListTask {
                     break;
                 case 3:
                     dataGuncelle(list);
-                    calistir(list);
                     break;
                 case -1:
                     System.out.println("Programdan çıkılıyor");
