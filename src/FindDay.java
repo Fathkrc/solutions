@@ -34,7 +34,7 @@ public class FindDay {
 
     public static String findDay(int month, int day, int year) {
         Calendar cal=Calendar.getInstance();
-        cal.set(year,month-1,day);
+        cal.set(year,month-1,day);//months count begins with 0 so we are changing value as minus 1 
         String days=dayOfWeek(cal.get(Calendar.DAY_OF_WEEK));
         return days;
     }
